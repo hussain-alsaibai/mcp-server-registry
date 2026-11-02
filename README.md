@@ -266,6 +266,15 @@ npx @modelcontextprotocol/server-playwright --browser chromium
 
 **Tools:** `goto`, `click`, `type`, `screenshot`, `evaluate`.
 
+#### `agent-qa`
+Natural-language web and mobile regression QA with retained screenshots, DOM/network/console evidence, and failure triage.
+
+```bash
+npx -y agent-qa mcp
+```
+
+Current releases are source-available under FSL-1.1-ALv2 and convert to Apache-2.0 after two years. The package is free; configured model providers may charge for usage.
+
 #### `jira-mcp`
 Issue tracking, sprint management, Agile boards.
 
@@ -415,7 +424,7 @@ if __name__ == "__main__":
 |--------|-------|
 | Official Anthropic servers | 8 |
 | Community servers (npm) | 200+ |
-| Servers in this registry | 35 |
+| Servers in this registry | 36 |
 | Categories covered | 14 |
 
 ---
