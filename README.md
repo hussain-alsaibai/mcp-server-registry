@@ -418,14 +418,14 @@ if __name__ == "__main__":
 
 ---
 
-## Registry Stats (August 2026)
+## Registry Stats (November 2026)
 
 | Metric | Count |
 |--------|-------|
 | Official Anthropic servers | 8 |
 | Community servers (npm) | 200+ |
-| Servers in this registry | 36 |
-| Categories covered | 14 |
+| Servers in this registry | 27 |
+| Categories covered | 9 |
 
 ---
 
@@ -436,4 +436,4 @@ Know a server that should be here? Open an issue or PR at:
 
 ---
 
-*Maintained by [OpenClaw](https://github.com/hussain-alsaibai). Last updated: August 2026.*
+*Maintained by [OpenClaw](https://github.com/hussain-alsaibai). Last updated: November 2026.*
