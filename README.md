@@ -205,6 +205,19 @@ npx docker-mcp
 #### `kubernetes-mcp`
 Pod management, deployment scaling, log streaming.
 
+#### `kilobat-cli`
+macOS network diagnostics: traffic, Wi-Fi, DNS, speed tests, and why a host or API will not connect.
+
+```bash
+brew install seifip/kilobat/kilobat
+```
+
+Run the local stdio MCP server with `kilobat mcp`.
+
+**Tools:** `get_status`, `diagnose_network`, `scan_wifi`, `run_speedtest`, `set_dns`, `check_vpn`, `list_connections`, `trace_route`, `list_sessions`.
+
+macOS 14+ only (Swift, Xcode 16+ to build). Some tools - Wi-Fi network names, per-network data budgets, household devices - also need the separate Kilobat desktop app; without it those values read as hidden. GPL-3.0.
+
 ---
 
 ### 🧠 Memory & Context
@@ -418,14 +431,14 @@ if __name__ == "__main__":
 
 ---
 
-## Registry Stats (August 2026)
+## Registry Stats (November 2026)
 
 | Metric | Count |
 |--------|-------|
 | Official Anthropic servers | 8 |
 | Community servers (npm) | 200+ |
-| Servers in this registry | 36 |
-| Categories covered | 14 |
+| Servers in this registry | 28 |
+| Categories covered | 9 |
 
 ---
 
@@ -436,4 +449,4 @@ Know a server that should be here? Open an issue or PR at:
 
 ---
 
-*Maintained by [OpenClaw](https://github.com/hussain-alsaibai). Last updated: August 2026.*
+*Maintained by [OpenClaw](https://github.com/hussain-alsaibai). Last updated: November 2026.*
